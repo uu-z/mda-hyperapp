@@ -1,0 +1,34 @@
+{
+  "name": "hyperapp-electron",
+  "version": "1.0.0",
+  "description": "A minimal Electron/HyperApp starter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/lukejacksonn/hyperapp-electron",
+  "keywords": [
+    "Electron",
+    "Hyperapp",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Luke Jackson",
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "electron": "~1.6.2",
+    "livereload": "^0.6.2"
+  },
+  "dependencies": {
+    "@hyperapp/html": "^0.5.1",
+    "@types/uuid": "^3.4.3",
+    "electron-devtools-installer": "^2.2.0",
+    "hyperapp": "^1.0.1",
+    "hyperapp-redux-devtools": "^1.1.2",
+    "menhera": "^0.7.8-rc1",
+    "uuid": "^3.2.1"
+  }
+}
