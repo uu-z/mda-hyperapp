@@ -55,7 +55,7 @@ const ArrayComp = ({ v, k, depth, actions }) =>
 
 const compile = obj => {
   let vals = {};
-  $(obj, (k, v) => {
+  for (let [k, v] of Object.entries(obj)) {
     let type = typeof v;
 
     if (type === "object") {
@@ -66,7 +66,7 @@ const compile = obj => {
       }
     }
     vals[k] = { type, val: v };
-  });
+  }
   return vals;
 };
 
